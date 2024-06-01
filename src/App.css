@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  overflow-x: hidden;
+}
+.App .container{
+  flex-grow: 1;
+  padding: 0 60px;
+}
+
+
+
+
+@media (max-width:600px) {
+  .App{
+    flex-direction: column;
+  }
+  
+}
